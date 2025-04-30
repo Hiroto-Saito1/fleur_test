@@ -121,12 +121,7 @@ if __name__ == "__main__":
         dft.band.iloc[:, 1],
         color="black",
     )
-
-    '''
-    # Wannier
-    for nw in range(ham.num_wann):
-        plt.plot(dft.band.iloc[:240, 0], wan.band[:, nw], color="red", linestyle="--")
-    '''
+    
 
     plt.xticks(ticks=[dft.band.iloc[i, 0] for i in dft.index], labels=dft.label)
     plt.xlim(np.min(dft.band.iloc[:, 0]), np.max(dft.band.iloc[:, 0]))
@@ -136,3 +131,10 @@ if __name__ == "__main__":
     plt.savefig("band.pdf")
     plt.ylim(-12, 4)
     plt.savefig("band_detail.pdf")
+
+    # Wannier
+    for nw in range(ham.num_wann):
+        plt.plot(dft.band.iloc[:240, 0], wan.band[:, nw], color="red", linestyle="--")
+    plt.ylim(-70, 16)
+    plt.savefig("band_wan.pdf")  
+    

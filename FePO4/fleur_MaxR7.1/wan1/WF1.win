@@ -2,6 +2,7 @@
  num_wann=         168
  num_iter=         0
  num_bands=         200
+ exclude_bands = 1-8, 33, 34
            
  search_shells=         200
  !optional parameters for wannierization
@@ -12,11 +13,9 @@
           
  ! optional parameters for disentangling
  ! Fermi Energy = 0.176346 htr = 4.798618 eV
- ! dis_froz_min= E_F-10.5 eV, dis_froz_max= E_F+2 eV,
+ ! dis_win_max= E_F+4 eV,
  !dis_win_min=
- !dis_win_max=
- dis_froz_min=-5.701382
- dis_froz_max=6.798618
+ dis_win_max=8.798618
  dis_num_iter=200
  !dis_mix_ratio=
  !dis_conv_tol=

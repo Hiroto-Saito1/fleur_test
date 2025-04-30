@@ -1,6 +1,6 @@
  
 :: initializing oneAPI environment ...
-   1745.toki.SC: ZSH_VERSION = 5.5.1
+   1798.toki.SC: ZSH_VERSION = 5.5.1
    args: Using "$@" for setvars.sh arguments: --force intel64
 :: advisor -- latest
 :: ccl -- latest

@@ -1,0 +1,215 @@
+{
+  "loglevel":"status"
+  "timestamp":"28.04.2025 13:32:14"
+  "Started":"FLEUR"
+}
+{
+  "loglevel":"info"
+  "timestamp":"28.04.2025 13:32:15"
+}
+{
+  "loglevel":"status"
+  "timestamp":"29.04.2025 22:03:12"
+  "Success":"all done"
+}
+ 14:31:20"
+  "Interation":"1"
+  "Distance":"35.44498"
+}
+{
+  "loglevel":"info"
+  "timestamp":"28.04.2025 15:30:32"
+  "Interation":"2"
+  "Distance":"33.76962"
+}
+{
+  "loglevel":"info"
+  "timestamp":"28.04.2025 16:29:43"
+  "Interation":"3"
+  "Distance":"50.02074"
+}
+{
+  "loglevel":"info"
+  "timestamp":"28.04.2025 17:28:49"
+  "Interation":"4"
+  "Distance":"25.72237"
+}
+{
+  "loglevel":"info"
+  "timestamp":"28.04.2025 18:27:51"
+  "Interation":"5"
+  "Distance":"19.52740"
+}
+{
+  "loglevel":"info"
+  "timestamp":"28.04.2025 19:26:55"
+  "Interation":"6"
+  "Distance":"17.73162"
+}
+{
+  "loglevel":"info"
+  "timestamp":"28.04.2025 20:26:12"
+  "Interation":"7"
+  "Distance":"11.91200"
+}
+{
+  "loglevel":"info"
+  "timestamp":"28.04.2025 21:25:13"
+  "Interation":"8"
+  "Distance":"11.66813"
+}
+{
+  "loglevel":"info"
+  "timestamp":"28.04.2025 22:24:25"
+  "Interation":"9"
+  "Distance":"9.75059"
+}
+{
+  "loglevel":"info"
+  "timestamp":"28.04.2025 23:23:41"
+  "Interation":"10"
+  "Distance":"9.68391"
+}
+{
+  "loglevel":"info"
+  "timestamp":"29.04.2025 00:22:51"
+  "Interation":"11"
+  "Distance":"7.38485"
+}
+{
+  "loglevel":"info"
+  "timestamp":"29.04.2025 01:21:59"
+  "Interation":"12"
+  "Distance":"7.46087"
+}
+{
+  "loglevel":"info"
+  "timestamp":"29.04.2025 02:21:03"
+  "Interation":"13"
+  "Distance":"4.01588"
+}
+{
+  "loglevel":"info"
+  "timestamp":"29.04.2025 03:20:18"
+  "Interation":"14"
+  "Distance":"3.59666"
+}
+{
+  "loglevel":"info"
+  "timestamp":"29.04.2025 04:19:18"
+  "Interation":"15"
+  "Distance":"1.03586"
+}
+{
+  "loglevel":"info"
+  "timestamp":"29.04.2025 05:18:22"
+  "Interation":"16"
+  "Distance":"0.97896"
+}
+{
+  "loglevel":"info"
+  "timestamp":"29.04.2025 06:17:22"
+  "Interation":"17"
+  "Distance":"0.84145"
+}
+{
+  "loglevel":"info"
+  "timestamp":"29.04.2025 07:16:28"
+  "Interation":"18"
+  "Distance":"0.24199"
+}
+{
+  "loglevel":"info"
+  "timestamp":"29.04.2025 08:15:41"
+  "Interation":"19"
+  "Distance":"0.16625"
+}
+{
+  "loglevel":"info"
+  "timestamp":"29.04.2025 09:14:50"
+  "Interation":"20"
+  "Distance":"8.3766E-02"
+}
+{
+  "loglevel":"info"
+  "timestamp":"29.04.2025 10:13:54"
+  "Interation":"21"
+  "Distance":"5.9093E-02"
+}
+{
+  "loglevel":"info"
+  "timestamp":"29.04.2025 11:12:56"
+  "Interation":"22"
+  "Distance":"4.8794E-02"
+}
+{
+  "loglevel":"info"
+  "timestamp":"29.04.2025 12:12:04"
+  "Interation":"23"
+  "Distance":"8.1633E-03"
+}
+{
+  "loglevel":"info"
+  "timestamp":"29.04.2025 13:11:07"
+  "Interation":"24"
+  "Distance":"5.7511E-03"
+}
+{
+  "loglevel":"info"
+  "timestamp":"29.04.2025 14:10:15"
+  "Interation":"25"
+  "Distance":"3.0549E-03"
+}
+{
+  "loglevel":"info"
+  "timestamp":"29.04.2025 15:09:30"
+  "Interation":"26"
+  "Distance":"1.1145E-03"
+}
+{
+  "loglevel":"info"
+  "timestamp":"29.04.2025 16:08:43"
+  "Interation":"27"
+  "Distance":"6.8799E-04"
+}
+{
+  "loglevel":"info"
+  "timestamp":"29.04.2025 17:07:59"
+  "Interation":"28"
+  "Distance":"4.0516E-04"
+}
+{
+  "loglevel":"info"
+  "timestamp":"29.04.2025 18:07:01"
+  "Interation":"29"
+  "Distance":"1.0291E-04"
+}
+{
+  "loglevel":"info"
+  "timestamp":"29.04.2025 19:06:09"
+  "Interation":"30"
+  "Distance":"8.9082E-05"
+}
+{
+  "loglevel":"info"
+  "timestamp":"29.04.2025 20:05:11"
+  "Interation":"31"
+  "Distance":"6.2610E-05"
+}
+{
+  "loglevel":"info"
+  "timestamp":"29.04.2025 21:04:13"
+  "Interation":"32"
+  "Distance":"3.0734E-05"
+}
+{
+  "loglevel":"info"
+  "timestamp":"29.04.2025 22:03:12"
+  "Interation":"33"
+  "Distance":"9.1815E-06"
+}
+{
+  "loglevel":"status"
+  "timestamp":"29.04.2025 22:03:12"
+  "Success":"all done"
+}

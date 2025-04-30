@@ -1,0 +1,16 @@
+{
+  "loglevel":"status"
+  "timestamp":"30.04.2025 13:22:06"
+  "Started":"FLEUR"
+}
+{
+  "loglevel":"info"
+  "timestamp":"30.04.2025 13:22:08"
+}
+{
+  "loglevel":"status"
+  "timestamp":{
+  "loglevel":"status"
+  "timestamp":"30.04.2025 14:22:44"
+  "Success":"Charge density postprocessing done."
+}

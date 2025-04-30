@@ -1,0 +1,31 @@
+{
+   "url":"www.flapw.de/collect.pl",
+   "calculation-id":"46E19A89BAC44338",
+   "data": {
+        "githash":"0086d0acfb761f925619a809d0d08d004254e175",
+        "MPI-PE":32,
+        "OMP":32,
+        "A-Types":6,
+        "fi%atoms":24,
+        "Real":true,
+        "Spins":2,
+        "Noco":false,
+        "SOC":true,
+        "SpinSpiral":false,
+        "PlaneWaves":2850,
+        "LOs":28,
+        "nkpt":24,
+        "gpu_per_node":0,
+        "diag-solver":213,
+        "Runtime":3637.48,
+        "cpu_model":"1",
+        "cpu_modelname":"AMD EPYC 7313 16-Core Processor",
+        "VmPeak":16440144,
+        "VmSize":11293104,
+        "VmHWM":603284,
+        "VmData":624824,
+        "VmStk":12752,
+        "VmExe":35236,
+        "VmSwap":0
+      }
+}

@@ -1,0 +1,29 @@
+
+                   FLAPW7 time.info-file
+
+preparation: generation of stars,lattice harmonics,etc:         0.00 sec =   0 h  0 min  0.00 sec
+
+ITERATION  1
+
+psqpw:                                                          0.04 sec =   0 h  0 min  0.04 sec
+p int                                                           0.00 sec =   0 h  0 min  0.00 sec
+p mts                                                           0.02 sec =   0 h  0 min  0.02 sec
+generation of ex.-cor.potential in interstitial:                0.54 sec =   0 h  0 min  0.54 sec
+generation of ex.-cor.potential in mt:                          0.71 sec =   0 h  0 min  0.71 sec
+generation of potential (total):                                1.51 sec =   0 h  0 min  1.51 sec
+EIGENVALUE PART (eigen):
+   tlmplm:                                                      4.37 sec =   0 h  0 min  4.37 sec
+   generation of planewaves (apws):                             0.00 sec =   0 h  0 min  0.00 sec
+   hsint:                                                       0.68 sec =   0 h  0 min  0.68 sec
+   hssph(n):
+      spherical:                                               25.93 sec =   0 h  0 min 25.93 sec
+      non-spherical:                                          142.22 sec =   0 h  2 min 22.22 sec
+      hssphn (total):                                         168.18 sec =   0 h  2 min 48.18 sec
+   seclr4:                                                    877.15 sec =   0 h 14 min 37.15 sec
+   outeig:                                                      0.03 sec =   0 h  0 min  0.03 sec
+SOC:   spnorb :                                                 0.03 sec =   0 h  0 min  0.03 sec
+SOC:     -help:                                                15.52 sec =   0 h  0 min 15.52 sec
+SOC:     -ham :                                                 7.61 sec =   0 h  0 min  7.61 sec
+SOC:     -diag:                                                 0.44 sec =   0 h  0 min  0.44 sec
+SOC:   alineso:                                                29.68 sec =   0 h  0 min 29.68 sec
+generation of hamiltonian and diagonalization (total):       1085.57 sec =   0 h 18 min  5.57 sec

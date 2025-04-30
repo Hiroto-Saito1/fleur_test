@@ -1,0 +1,1 @@
+find . -type f ! -name '*cif' ! -name 'projgen_inp' ! -name '*.sh' ! -name '*.py' ! -name 'README.md' -delete

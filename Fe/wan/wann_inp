@@ -1,0 +1,14 @@
+byindex 0 80
+wan90version 2.0
+!projgen
+!prepwan90
+matrixmmn
+matrixamn
+!mmn0
+!anglmom
+!anglmomrs
+!updown
+!socmat
+!socmatrs
+!pauli
+endjobs

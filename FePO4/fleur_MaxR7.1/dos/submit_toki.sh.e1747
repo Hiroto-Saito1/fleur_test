@@ -1,0 +1,11 @@
+
+CondaError: Run 'conda init' before 'conda deactivate'
+
+
+CondaError: Run 'conda init' before 'conda deactivate'
+
+
+CondaError: Run 'conda init' before 'conda deactivate'
+
+/etc/bashrc:53: command not found: shopt
+I/O warning : failed to load "relax.xml": No such file or directory

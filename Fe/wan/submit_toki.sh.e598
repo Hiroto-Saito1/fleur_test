@@ -1,0 +1,16 @@
+
+CondaError: Run 'conda init' before 'conda deactivate'
+
+
+CondaError: Run 'conda init' before 'conda deactivate'
+
+
+CondaError: Run 'conda init' before 'conda deactivate'
+
+/etc/bashrc:53: command not found: shopt
+ *****************************************
+ FLEUR run finished successfully
+ Stop message:
+   wannier good
+ *****************************************
+FLEUR-OK

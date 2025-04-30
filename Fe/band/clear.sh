@@ -1,0 +1,1 @@
+find . -type f ! -name 'inpgen.Fe' ! -name 'readme' ! -name '*.sh' ! -name '*.py' -delete

@@ -1,0 +1,22 @@
+
+CondaError: Run 'conda init' before 'conda deactivate'
+
+
+CondaError: Run 'conda init' before 'conda deactivate'
+
+
+CondaError: Run 'conda init' before 'conda deactivate'
+
+/etc/bashrc:53: command not found: shopt
+ ************FLEUR-Warning*****************
+ Error message:
+ Too low eigenvalue detected
+ Error occurred in subroutine:
+ fermi
+ Hint:
+ If the lowest eigenvalue is more than 1Htr below the lowest energy parameter, y
+ ou probably have picked up a ghoststate
+ *****************************************
+Warnings not ignored, see fleurenv.F for details
+Touch 'FLEUR_WARN_ONLY' to make the warning nonfatal
+Abort(1) on node 0 (rank 0 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0

@@ -1,0 +1,1292 @@
+ 
+:: initializing oneAPI environment ...
+   1563.toki.SC: ZSH_VERSION = 5.5.1
+   args: Using "$@" for setvars.sh arguments: --force intel64
+:: advisor -- latest
+:: ccl -- latest
+:: clck -- latest
+:: compiler -- latest
+:: dal -- latest
+:: debugger -- latest
+:: dev-utilities -- latest
+:: dnnl -- latest
+:: dpcpp-ct -- latest
+:: dpl -- latest
+:: inspector -- latest
+:: intelpython -- latest
+:: ipp -- latest
+:: ippcp -- latest
+:: ipp -- latest
+:: itac -- latest
+:: mkl -- latest
+:: modelzoo -- latest
+:: modin -- latest
+:: mpi -- latest
+:: neural-compressor -- latest
+:: pytorch -- latest
+:: tbb -- latest
+:: tensorflow -- latest
+:: vpl -- latest
+:: vtune -- latest
+:: oneAPI environment initialized ::
+ 
+      Welcome to FLEUR        (www.flapw.de)   
+      MaX-Release 7.1          (www.max-centre.eu)
+ Cannot print out FleurOutputSchema.xsd for version 0.38
+ 
+ ========== k-point set info ==========
+ Selected k-point list: default
+ k-point list type: mesh
+ 5 x 3 x 6
+ Number of k points: 24
+ 
+ The OpenMP parallelism seems to be weird
+ Multiple OMPs on one core: There are 32 on cpu 8
+ me:            0 my cpu:           8
+ me:            2 my cpu:           8
+ me:            1 my cpu:           8
+ me:            3 my cpu:           8
+ me:            8 my cpu:           8
+ me:           11 my cpu:           8
+ me:           10 my cpu:           8
+ me:            9 my cpu:           8
+ me:            4 my cpu:           8
+ me:            7 my cpu:           8
+ me:            6 my cpu:           8
+ me:            5 my cpu:           8
+ me:           16 my cpu:           8
+ me:           19 my cpu:           8
+ me:           18 my cpu:           8
+ me:           17 my cpu:           8
+ me:           28 my cpu:           8
+ me:           31 my cpu:           8
+ me:           30 my cpu:           8
+ me:           29 my cpu:           8
+ me:           24 my cpu:           8
+ me:           26 my cpu:           8
+ me:           27 my cpu:           8
+ me:           25 my cpu:           8
+ me:           20 my cpu:           8
+ me:           21 my cpu:           8
+ me:           22 my cpu:           8
+ me:           23 my cpu:           8
+ The OpenMP parallelism seems to be weird
+ Multiple OMPs on one core: There are 32 on cpu 6
+ me:            0 my cpu:           6
+ me:            2 my cpu:           6
+ me:            3 my cpu:           6
+ me:            1 my cpu:           6
+ me:            8 my cpu:           6
+ me:           10 my cpu:           6
+ me:           11 my cpu:           6
+ me:            9 my cpu:           6
+ me:            4 my cpu:           6
+ me:            5 my cpu:           6
+ me:            7 my cpu:           6
+ me:            6 my cpu:           6
+ me:           12 my cpu:           6
+ me:           13 my cpu:           6
+ me:           15 my cpu:           6
+ me:           14 my cpu:           6
+ me:           12 my cpu:           8
+ me:           14 my cpu:           8
+ me:           13 my cpu:           8
+ me:           15 my cpu:           8
+ me:           16 my cpu:           6
+ me:           17 my cpu:           6
+ me:           18 my cpu:           6
+ me:           19 my cpu:           6
+ me:           20 my cpu:           6
+ me:           23 my cpu:           6
+ me:           21 my cpu:           6
+ me:           22 my cpu:           6
+ me:           24 my cpu:           6
+ me:           26 my cpu:           6
+ me:           25 my cpu:           6
+ me:           27 my cpu:           6
+ me:           28 my cpu:           6
+ me:           31 my cpu:           6
+ me:           30 my cpu:           6
+ me:           29 my cpu:           6
+ The OpenMP parallelism seems to be weird
+ Multiple OMPs on one core: There are 32 on cpu 4
+ The OpenMP parallelism seems to be weird
+ Multiple OMPs on one core: There are 32 on cpu 29
+ The OpenMP parallelism seems to be weird
+ Multiple OMPs on one core: There are 32 on cpu 30
+ The OpenMP parallelism seems to be weird
+ Multiple OMPs on one core: There are 32 on cpu 1
+ The OpenMP parallelism seems to be weird
+ Multiple OMPs on one core: There are 32 on cpu 5
+ The OpenMP parallelism seems to be weird
+ Multiple OMPs on one core: There are 32 on cpu 15
+ me:            0 my cpu:          29
+ me:            1 my cpu:          29
+ me:            3 my cpu:          29
+ me:            2 my cpu:          29
+ me:           12 my cpu:          29
+ me:           13 my cpu:          29
+ me:           14 my cpu:          29
+ me:           15 my cpu:          29
+ me:            8 my cpu:          29
+ me:            9 my cpu:          29
+ me:           11 my cpu:          29
+ me:           10 my cpu:          29
+ me:            0 my cpu:           4
+ me:            0 my cpu:          30
+ me:            3 my cpu:          30
+ me:            2 my cpu:          30
+ me:            1 my cpu:          30
+ me:            8 my cpu:          30
+ me:           10 my cpu:          30
+ me:           11 my cpu:          30
+ me:            9 my cpu:          30
+ me:            4 my cpu:          30
+ me:            6 my cpu:          30
+ me:            5 my cpu:          30
+ me:            7 my cpu:          30
+ me:            1 my cpu:           4
+ me:            3 my cpu:           4
+ me:            2 my cpu:           4
+ me:            8 my cpu:           4
+ me:           10 my cpu:           4
+ me:            9 my cpu:           4
+ me:           11 my cpu:           4
+ me:            4 my cpu:           4
+ me:            7 my cpu:           4
+ me:            5 my cpu:           4
+ me:            6 my cpu:           4
+ me:            0 my cpu:           1
+ me:            0 my cpu:           5
+ me:            2 my cpu:           5
+ me:            3 my cpu:           5
+ me:            1 my cpu:           5
+ me:           12 my cpu:           5
+ me:           15 my cpu:           5
+ me:           14 my cpu:           5
+ me:           13 my cpu:           5
+ me:            2 my cpu:           1
+ me:            3 my cpu:           1
+ me:            8 my cpu:           5
+ me:           10 my cpu:           5
+ me:            9 my cpu:           5
+ me:           11 my cpu:           5
+ me:            1 my cpu:           1
+ me:            8 my cpu:           1
+ me:           11 my cpu:           1
+ me:            9 my cpu:           1
+ me:           10 my cpu:           1
+ me:            4 my cpu:           1
+ me:            5 my cpu:           1
+ me:            6 my cpu:           1
+ me:            7 my cpu:           1
+ me:            0 my cpu:          15
+ me:            3 my cpu:          15
+ me:            2 my cpu:          15
+ me:            1 my cpu:          15
+ me:           16 my cpu:          29
+ me:           17 my cpu:          29
+ me:           18 my cpu:          29
+ me:           19 my cpu:          29
+ me:            8 my cpu:          15
+ me:            9 my cpu:          15
+ me:           10 my cpu:          15
+ me:           11 my cpu:          15
+ me:           20 my cpu:          29
+ me:           21 my cpu:          29
+ me:           22 my cpu:          29
+ me:           23 my cpu:          29
+ me:            4 my cpu:          15
+ me:            7 my cpu:          15
+ me:            5 my cpu:          15
+ me:            6 my cpu:          15
+ me:           24 my cpu:          29
+ me:           26 my cpu:          29
+ The OpenMP parallelism seems to be weird
+ Multiple OMPs on one core: There are 32 on cpu 0
+ me:            0 my cpu:           0
+ me:            1 my cpu:           0
+ me:           16 my cpu:           0
+ me:            8 my cpu:           0
+ me:           10 my cpu:           0
+ me:           28 my cpu:           0
+ me:           12 my cpu:           0
+ me:           17 my cpu:           0
+ me:            2 my cpu:           0
+ me:            4 my cpu:           0
+ me:           11 my cpu:           0
+ me:            9 my cpu:           0
+ me:           24 my cpu:           0
+ me:           29 my cpu:           0
+ me:           19 my cpu:           0
+ me:           18 my cpu:           0
+ me:           31 my cpu:           0
+ me:            3 my cpu:           0
+ me:            6 my cpu:           0
+ me:           20 my cpu:           0
+ me:           15 my cpu:           0
+ me:            5 my cpu:           0
+ me:           30 my cpu:           0
+ me:           13 my cpu:           0
+ me:           25 my cpu:           0
+ me:           27 my cpu:           0
+ me:            7 my cpu:           0
+ me:           22 my cpu:           0
+ me:           21 my cpu:           0
+ me:           26 my cpu:           0
+ me:           23 my cpu:           0
+ me:           14 my cpu:           0
+ me:           25 my cpu:          29
+ me:           27 my cpu:          29
+ me:           28 my cpu:          29
+ me:           29 my cpu:          29
+ The OpenMP parallelism seems to be weird
+ me:           30 my cpu:          29
+ The OpenMP parallelism seems to be weird
+ Multiple OMPs on one core: There are 32 on cpu 31
+ The OpenMP parallelism seems to be weird
+ Multiple OMPs on one core: There are 32 on cpu 24
+ Multiple OMPs on one core: There are 32 on cpu 25
+ me:           31 my cpu:          29
+ The OpenMP parallelism seems to be weird
+ Multiple OMPs on one core: There are 32 on cpu 21
+ The OpenMP parallelism seems to be weird
+ Multiple OMPs on one core: There are 32 on cpu 28
+ The OpenMP parallelism seems to be weird
+ Multiple OMPs on one core: There are 32 on cpu 9
+ The OpenMP parallelism seems to be weird
+ Multiple OMPs on one core: There are 32 on cpu 2
+ The OpenMP parallelism seems to be weird
+ Multiple OMPs on one core: There are 32 on cpu 3
+ The OpenMP parallelism seems to be weird
+ Multiple OMPs on one core: There are 32 on cpu 23
+ me:           12 my cpu:           4
+ me:           15 my cpu:           4
+ me:           14 my cpu:           4
+ me:           13 my cpu:           4
+ The OpenMP parallelism seems to be weird
+ Multiple OMPs on one core: There are 32 on cpu 10
+ The OpenMP parallelism seems to be weird
+ Multiple OMPs on one core: There are 32 on cpu 11
+ The OpenMP parallelism seems to be weird
+ Multiple OMPs on one core: There are 32 on cpu 12
+ The OpenMP parallelism seems to be weird
+ Multiple OMPs on one core: There are 32 on cpu 27
+ The OpenMP parallelism seems to be weird
+ Multiple OMPs on one core: There are 32 on cpu 7
+ The OpenMP parallelism seems to be weird
+ Multiple OMPs on one core: There are 32 on cpu 16
+ me:           12 my cpu:          30
+ me:           13 my cpu:          30
+ me:           14 my cpu:          30
+ me:           15 my cpu:          30
+ The OpenMP parallelism seems to be weird
+ Multiple OMPs on one core: There are 32 on cpu 17
+ The OpenMP parallelism seems to be weird
+ Multiple OMPs on one core: There are 32 on cpu 19
+ ------------Calculation Setup---------------------------
+ Number of MPI-tasks  :           32
+ Number of PE/node    :           32
+ Number of OMP-threads:           32
+ The OpenMP parallelism seems to be weird
+ Multiple OMPs on one core: There are 32 on cpu 13
+ k-points in parallel :            8
+ pe's per k-point     :            4
+ No of k-point loops  :            3
+ me:           16 my cpu:           4
+ me:           18 my cpu:           4
+ me:           17 my cpu:           4
+ me:           19 my cpu:           4
+ me:           20 my cpu:           4
+ me:           23 my cpu:           4
+ me:           22 my cpu:           4
+ me:           21 my cpu:           4
+ The OpenMP parallelism seems to be weird
+ Multiple OMPs on one core: There are 32 on cpu 14
+ me:           24 my cpu:           4
+ me:           25 my cpu:           4
+ me:           26 my cpu:           4
+ me:           27 my cpu:           4
+ The OpenMP parallelism seems to be weird
+ Multiple OMPs on one core: There are 32 on cpu 22
+ me:           28 my cpu:           4
+ me:           31 my cpu:           4
+ me:           30 my cpu:           4
+ me:           29 my cpu:           4
+ The OpenMP parallelism seems to be weird
+ Multiple OMPs on one core: There are 32 on cpu 26
+ The OpenMP parallelism seems to be weird
+ Multiple OMPs on one core: There are 32 on cpu 20
+ The OpenMP parallelism seems to be weird
+ Multiple OMPs on one core: There are 32 on cpu 18
+ me:           16 my cpu:          30
+ me:           18 my cpu:          30
+ me:           17 my cpu:          30
+ me:           19 my cpu:          30
+ me:           20 my cpu:          30
+ me:           22 my cpu:          30
+ me:           23 my cpu:          30
+ me:           21 my cpu:          30
+ me:           12 my cpu:           1
+ me:            4 my cpu:          29
+ me:            7 my cpu:          29
+ me:            6 my cpu:          29
+ me:            5 my cpu:          29
+ me:           28 my cpu:          30
+ me:           30 my cpu:          30
+ me:           31 my cpu:          30
+ me:           29 my cpu:          30
+ me:           14 my cpu:           1
+ me:           15 my cpu:           1
+ me:           13 my cpu:           1
+ me:           24 my cpu:          30
+ me:           25 my cpu:          30
+ me:           26 my cpu:          30
+ me:           27 my cpu:          30
+ me:           12 my cpu:          15
+ me:           13 my cpu:          15
+ me:           14 my cpu:          15
+ me:           15 my cpu:          15
+ me:           16 my cpu:           1
+ me:           17 my cpu:           1
+ me:           18 my cpu:           1
+ me:           16 my cpu:           5
+ me:           17 my cpu:           5
+ me:           18 my cpu:           5
+ me:           19 my cpu:           5
+ me:           19 my cpu:           1
+ me:           20 my cpu:           5
+ me:           24 my cpu:           1
+ me:           26 my cpu:           1
+ me:           27 my cpu:           1
+ me:           25 my cpu:           1
+ me:           23 my cpu:           5
+ me:           16 my cpu:          15
+ me:           18 my cpu:          15
+ me:           19 my cpu:          15
+ me:           17 my cpu:          15
+ me:           20 my cpu:           1
+ me:           22 my cpu:           1
+ me:           23 my cpu:           1
+ me:           21 my cpu:           1
+ me:           20 my cpu:          15
+ me:           22 my cpu:          15
+ me:           21 my cpu:          15
+ me:           23 my cpu:          15
+ me:           21 my cpu:           5
+ me:           22 my cpu:           5
+ me:           24 my cpu:          15
+ me:           28 my cpu:           5
+ me:           30 my cpu:           5
+ me:           31 my cpu:           5
+ me:           29 my cpu:           5
+ me:           25 my cpu:          15
+ me:           26 my cpu:          15
+ me:           27 my cpu:          15
+ me:           28 my cpu:           1
+ me:           31 my cpu:           1
+ me:           29 my cpu:           1
+ me:           30 my cpu:           1
+ me:           24 my cpu:           5
+ me:           27 my cpu:           5
+ me:           25 my cpu:           5
+ me:           26 my cpu:           5
+ me:           28 my cpu:          15
+ me:           30 my cpu:          15
+ me:           31 my cpu:          15
+ me:           29 my cpu:          15
+ me:            0 my cpu:          31
+ me:            2 my cpu:          31
+ me:           12 my cpu:          31
+ me:            8 my cpu:          31
+ me:           14 my cpu:          31
+ me:           11 my cpu:          31
+ me:            3 my cpu:          31
+ me:            4 my cpu:          31
+ me:           15 my cpu:          31
+ me:            5 my cpu:          31
+ me:            6 my cpu:          31
+ me:           13 my cpu:          31
+ me:            1 my cpu:          31
+ me:           16 my cpu:          31
+ me:           10 my cpu:          31
+ me:            9 my cpu:          31
+ me:           28 my cpu:          31
+ me:           19 my cpu:          31
+ me:           20 my cpu:          31
+ me:           24 my cpu:          31
+ me:           30 my cpu:          31
+ me:           18 my cpu:          31
+ me:           17 my cpu:          31
+ me:           22 my cpu:          31
+ me:           26 my cpu:          31
+ me:           25 my cpu:          31
+ me:           31 my cpu:          31
+ me:           21 my cpu:          31
+ me:           29 my cpu:          31
+ me:           27 my cpu:          31
+ me:            7 my cpu:          31
+ me:           23 my cpu:          31
+ me:            0 my cpu:           9
+ me:            3 my cpu:           9
+ me:            0 my cpu:          28
+ me:           12 my cpu:           9
+ me:            8 my cpu:           9
+ me:           13 my cpu:           9
+ me:            4 my cpu:           9
+ me:            2 my cpu:           9
+ me:           11 my cpu:           9
+ me:            5 my cpu:           9
+ me:            1 my cpu:           9
+ me:           10 my cpu:           9
+ me:           16 my cpu:           9
+ me:           17 my cpu:           9
+ me:            9 my cpu:           9
+ me:           15 my cpu:           9
+ me:           24 my cpu:           9
+ me:           14 my cpu:           9
+ me:            6 my cpu:           9
+ me:           25 my cpu:           9
+ me:           18 my cpu:           9
+ me:           27 my cpu:           9
+ me:            7 my cpu:           9
+ me:           28 my cpu:           9
+ me:           19 my cpu:           9
+ me:           20 my cpu:           9
+ me:           31 my cpu:           9
+ me:           26 my cpu:           9
+ me:           23 my cpu:           9
+ me:           21 my cpu:           9
+ me:           29 my cpu:           9
+ me:           30 my cpu:           9
+ me:           22 my cpu:           9
+ me:           16 my cpu:          28
+ me:            3 my cpu:          28
+ me:           18 my cpu:          28
+ me:           19 my cpu:          28
+ me:           12 my cpu:          28
+ me:           20 my cpu:          28
+ me:            8 my cpu:          28
+ me:           15 my cpu:          28
+ me:            2 my cpu:          28
+ me:           23 my cpu:          28
+ me:            4 my cpu:          28
+ me:            9 my cpu:          28
+ me:           22 my cpu:          28
+ me:           28 my cpu:          28
+ me:            6 my cpu:          28
+ me:            1 my cpu:          28
+ me:           13 my cpu:          28
+ me:            7 my cpu:          28
+ me:           29 my cpu:          28
+ me:           21 my cpu:          28
+ me:           17 my cpu:          28
+ me:           11 my cpu:          28
+ me:           10 my cpu:          28
+ me:           14 my cpu:          28
+ me:            5 my cpu:          28
+ me:            0 my cpu:          11
+ me:           30 my cpu:          28
+ me:           31 my cpu:          28
+ me:           24 my cpu:          28
+ me:           27 my cpu:          28
+ me:           26 my cpu:          28
+ me:           25 my cpu:          28
+ me:            4 my cpu:          11
+ me:            2 my cpu:          11
+ me:            1 my cpu:          11
+ me:            3 my cpu:          11
+ me:            6 my cpu:          11
+ me:           16 my cpu:          11
+ me:           12 my cpu:          11
+ me:           28 my cpu:          11
+ me:           20 my cpu:          11
+ me:           13 my cpu:          11
+ me:           18 my cpu:          11
+ me:            7 my cpu:          11
+ me:            8 my cpu:          11
+ me:           17 my cpu:          11
+ me:            5 my cpu:          11
+ me:           23 my cpu:          11
+ me:           14 my cpu:          11
+ me:           15 my cpu:          11
+ me:           31 my cpu:          11
+ me:           19 my cpu:          11
+ me:           30 my cpu:          11
+ me:           11 my cpu:          11
+ me:           24 my cpu:          11
+ me:           26 my cpu:          11
+ me:           22 my cpu:          11
+ me:           21 my cpu:          11
+ me:           10 my cpu:          11
+ me:           27 my cpu:          11
+ me:           25 my cpu:          11
+ me:            9 my cpu:          11
+ me:           29 my cpu:          11
+ me:            4 my cpu:           5
+ me:            7 my cpu:           5
+ me:            5 my cpu:           5
+ me:            6 my cpu:           5
+ me:            0 my cpu:           3
+ me:            1 my cpu:           3
+ me:           12 my cpu:           3
+ me:           15 my cpu:           3
+ me:            3 my cpu:           3
+ me:            8 my cpu:           3
+ me:            2 my cpu:           3
+ me:           11 my cpu:           3
+ me:           10 my cpu:           3
+ me:           14 my cpu:           3
+ me:            0 my cpu:          21
+ me:           13 my cpu:           3
+ me:            4 my cpu:           3
+ me:           16 my cpu:           3
+ me:           20 my cpu:           3
+ me:           22 my cpu:           3
+ me:           24 my cpu:           3
+ me:           21 my cpu:           3
+ me:           28 my cpu:           3
+ me:            9 my cpu:           3
+ me:           17 my cpu:           3
+ me:           26 my cpu:           3
+ me:           18 my cpu:           3
+ me:            5 my cpu:           3
+ me:           23 my cpu:           3
+ me:            6 my cpu:           3
+ me:           19 my cpu:           3
+ me:           25 my cpu:           3
+ me:           27 my cpu:           3
+ me:           30 my cpu:           3
+ me:           29 my cpu:           3
+ me:            7 my cpu:           3
+ me:           12 my cpu:          21
+ me:            3 my cpu:          21
+ me:            1 my cpu:          21
+ me:           16 my cpu:          21
+ me:           31 my cpu:           3
+ me:            8 my cpu:          21
+ me:            4 my cpu:          21
+ me:            6 my cpu:          21
+ me:            2 my cpu:          21
+ me:           18 my cpu:          21
+ me:           24 my cpu:          21
+ me:            5 my cpu:          21
+ me:           14 my cpu:          21
+ me:           10 my cpu:          21
+ me:           15 my cpu:          21
+ me:           26 my cpu:          21
+ me:           17 my cpu:          21
+ me:           27 my cpu:          21
+ me:            9 my cpu:          21
+ me:           11 my cpu:          21
+ me:           20 my cpu:          21
+ me:           13 my cpu:          21
+ me:           28 my cpu:          21
+ me:           21 my cpu:          21
+ me:           25 my cpu:          21
+ me:            7 my cpu:          21
+ me:           31 my cpu:          21
+ me:           19 my cpu:          21
+ me:           23 my cpu:          21
+ me:           22 my cpu:          21
+ me:           30 my cpu:          21
+ me:           29 my cpu:          21
+ me:            0 my cpu:          23
+ me:            0 my cpu:          24
+ me:            2 my cpu:          24
+ me:            3 my cpu:          24
+ me:            1 my cpu:          24
+ me:           12 my cpu:          24
+ me:           13 my cpu:          24
+ me:           15 my cpu:          24
+ me:           14 my cpu:          24
+ me:            1 my cpu:          23
+ me:            2 my cpu:          23
+ me:            3 my cpu:          23
+ me:            8 my cpu:          23
+ me:           10 my cpu:          23
+ me:           11 my cpu:          23
+ me:            9 my cpu:          23
+ me:           12 my cpu:          23
+ me:           14 my cpu:          23
+ me:           15 my cpu:          23
+ me:           13 my cpu:          23
+ me:            0 my cpu:          10
+ me:            3 my cpu:          10
+ me:            1 my cpu:          10
+ me:            2 my cpu:          10
+ me:            4 my cpu:          10
+ me:            6 my cpu:          10
+ me:            5 my cpu:          10
+ me:            7 my cpu:          10
+ me:            8 my cpu:          24
+ me:            9 my cpu:          24
+ me:           10 my cpu:          24
+ me:           11 my cpu:          24
+ me:           12 my cpu:          10
+ me:           13 my cpu:          10
+ me:           14 my cpu:          10
+ me:           15 my cpu:          10
+ me:            4 my cpu:          24
+ me:            7 my cpu:          24
+ me:            5 my cpu:          24
+ me:            6 my cpu:          24
+ me:           16 my cpu:          24
+ me:           19 my cpu:          24
+ me:           17 my cpu:          24
+ me:           18 my cpu:          24
+ me:           20 my cpu:          24
+ me:           21 my cpu:          24
+ me:           23 my cpu:          24
+ me:           22 my cpu:          24
+ me:           24 my cpu:          24
+ me:           26 my cpu:          24
+ me:           25 my cpu:          24
+ me:           27 my cpu:          24
+ me:            0 my cpu:          12
+ me:            3 my cpu:          12
+ me:           12 my cpu:          12
+ me:           16 my cpu:          12
+ me:            2 my cpu:          12
+ me:            4 my cpu:          23
+ me:            6 my cpu:          23
+ me:            5 my cpu:          23
+ me:            7 my cpu:          23
+ me:           24 my cpu:          12
+ me:           14 my cpu:          12
+ me:           18 my cpu:          12
+ me:           13 my cpu:          12
+ me:           17 my cpu:          12
+ me:            4 my cpu:          12
+ me:            8 my cpu:          12
+ me:           15 my cpu:          12
+ me:            1 my cpu:          12
+ me:            6 my cpu:          12
+ me:           27 my cpu:          12
+ me:            9 my cpu:          12
+ me:           11 my cpu:          12
+ me:           20 my cpu:          12
+ me:           28 my cpu:          12
+ me:           19 my cpu:          12
+ me:           25 my cpu:          12
+ me:            7 my cpu:          12
+ me:           26 my cpu:          12
+ me:           28 my cpu:          24
+ me:           31 my cpu:          24
+ me:           29 my cpu:          24
+ me:           30 my cpu:          24
+ me:           21 my cpu:          12
+ me:           30 my cpu:          12
+ me:           31 my cpu:          12
+ me:           22 my cpu:          12
+ me:           10 my cpu:          12
+ me:           29 my cpu:          12
+ me:           23 my cpu:          12
+ me:            5 my cpu:          12
+ me:            0 my cpu:          25
+ me:            3 my cpu:          25
+ me:            2 my cpu:          25
+ me:            1 my cpu:          25
+ me:            8 my cpu:          25
+ me:           10 my cpu:          25
+ me:            9 my cpu:          25
+ me:           11 my cpu:          25
+ me:           16 my cpu:          23
+ me:           17 my cpu:          23
+ me:           18 my cpu:          23
+ me:           19 my cpu:          23
+ me:           20 my cpu:          23
+ me:           22 my cpu:          23
+ me:           23 my cpu:          23
+ me:           21 my cpu:          23
+ me:           28 my cpu:          23
+ me:           29 my cpu:          23
+ me:           31 my cpu:          23
+ me:           30 my cpu:          23
+ me:            0 my cpu:          16
+ me:            1 my cpu:          16
+ me:            2 my cpu:          16
+ me:            3 my cpu:          16
+ me:            4 my cpu:          16
+ me:            5 my cpu:          16
+ me:            7 my cpu:          16
+ me:            6 my cpu:          16
+ me:           12 my cpu:          16
+ me:           14 my cpu:          16
+ me:           13 my cpu:          16
+ me:           15 my cpu:          16
+ me:           12 my cpu:          25
+ me:           13 my cpu:          25
+ me:           15 my cpu:          25
+ me:           14 my cpu:          25
+ me:            0 my cpu:           2
+ me:            2 my cpu:           2
+ me:            3 my cpu:           2
+ me:            1 my cpu:           2
+ me:            0 my cpu:          13
+ me:            1 my cpu:          13
+ me:            3 my cpu:          13
+ me:            2 my cpu:          13
+ me:           12 my cpu:          13
+ me:            4 my cpu:          13
+ me:           13 my cpu:          13
+ me:            8 my cpu:           2
+ me:            9 my cpu:           2
+ me:           10 my cpu:           2
+ me:           11 my cpu:           2
+ me:            8 my cpu:          13
+ me:           16 my cpu:          13
+ me:           14 my cpu:          13
+ me:           20 my cpu:          13
+ me:           10 my cpu:          13
+ me:            6 my cpu:          13
+ me:            9 my cpu:          13
+ me:           21 my cpu:          13
+ me:            7 my cpu:          13
+ me:           17 my cpu:          13
+ me:           22 my cpu:          13
+ me:           19 my cpu:          13
+ me:           28 my cpu:          13
+ me:           18 my cpu:          13
+ me:            5 my cpu:          13
+ me:           15 my cpu:          13
+ me:           24 my cpu:          13
+ me:           11 my cpu:          13
+ me:           26 my cpu:          13
+ me:           29 my cpu:          13
+ me:           23 my cpu:          13
+ me:           27 my cpu:          13
+ me:           31 my cpu:          13
+ me:           25 my cpu:          13
+ me:           30 my cpu:          13
+ me:           16 my cpu:          25
+ me:           17 my cpu:          25
+ me:           18 my cpu:          25
+ me:           19 my cpu:          25
+ me:           20 my cpu:          25
+ me:           23 my cpu:          25
+ me:           22 my cpu:          25
+ me:           21 my cpu:          25
+ me:           24 my cpu:          25
+ me:           26 my cpu:          25
+ me:           25 my cpu:          25
+ me:           27 my cpu:          25
+ me:           12 my cpu:           2
+ me:           14 my cpu:           2
+ me:           15 my cpu:           2
+ me:           13 my cpu:           2
+ me:           24 my cpu:          23
+ me:           27 my cpu:          23
+ me:           26 my cpu:          23
+ me:           25 my cpu:          23
+ me:           28 my cpu:          25
+ me:           30 my cpu:          25
+ me:           29 my cpu:          25
+ me:           31 my cpu:          25
+ me:            0 my cpu:          14
+ me:            0 my cpu:          22
+ me:           12 my cpu:          22
+ me:           13 my cpu:          22
+ me:           15 my cpu:          22
+ me:            8 my cpu:          22
+ me:            4 my cpu:          22
+ me:            2 my cpu:          22
+ me:           14 my cpu:          22
+ me:           10 my cpu:          22
+ me:            3 my cpu:          22
+ me:            9 my cpu:          22
+ me:            6 my cpu:          22
+ me:            5 my cpu:          22
+ me:            1 my cpu:          22
+ me:           16 my cpu:          22
+ me:            7 my cpu:          22
+ me:           11 my cpu:          22
+ me:           28 my cpu:          22
+ me:           17 my cpu:          22
+ me:           31 my cpu:          22
+ me:           29 my cpu:          22
+ me:           19 my cpu:          22
+ me:           24 my cpu:          22
+ me:           20 my cpu:          22
+ me:           30 my cpu:          22
+ me:           18 my cpu:          22
+ me:           26 my cpu:          22
+ me:           22 my cpu:          22
+ me:           23 my cpu:          22
+ me:           21 my cpu:          22
+ me:           27 my cpu:          22
+ me:           25 my cpu:          22
+ me:            8 my cpu:          10
+ me:           11 my cpu:          10
+ me:           10 my cpu:          10
+ me:            9 my cpu:          10
+ me:            2 my cpu:          14
+ me:            8 my cpu:          14
+ me:           10 my cpu:          14
+ me:            9 my cpu:          14
+ me:            4 my cpu:          14
+ me:            7 my cpu:          14
+ me:            1 my cpu:          14
+ me:           11 my cpu:          14
+ me:           12 my cpu:          14
+ me:           13 my cpu:          14
+ me:            3 my cpu:          14
+ me:            0 my cpu:          26
+ me:            1 my cpu:          26
+ me:            2 my cpu:          26
+ me:            3 my cpu:          26
+ me:            0 my cpu:          20
+ me:            1 my cpu:          20
+ me:            2 my cpu:          20
+ me:            3 my cpu:          20
+ me:           16 my cpu:          14
+ me:           24 my cpu:          14
+ me:            5 my cpu:          14
+ me:           28 my cpu:          14
+ me:           25 my cpu:          14
+ me:           18 my cpu:          14
+ me:           27 my cpu:          14
+ me:           26 my cpu:          14
+ me:           15 my cpu:          14
+ me:           17 my cpu:          14
+ me:           14 my cpu:          14
+ me:           20 my cpu:          14
+ me:           31 my cpu:          14
+ me:           29 my cpu:          14
+ me:           23 my cpu:          14
+ me:           19 my cpu:          14
+ me:           30 my cpu:          14
+ me:            8 my cpu:          20
+ me:           10 my cpu:          20
+ me:            9 my cpu:          20
+ me:           11 my cpu:          20
+ me:           12 my cpu:          20
+ me:           15 my cpu:          20
+ me:           14 my cpu:          20
+ me:            8 my cpu:          26
+ me:           21 my cpu:          14
+ me:           22 my cpu:          14
+ me:            6 my cpu:          14
+ me:           13 my cpu:          20
+ me:            8 my cpu:          16
+ me:            9 my cpu:          16
+ me:           10 my cpu:          16
+ me:           11 my cpu:          16
+ me:           11 my cpu:          26
+ me:            9 my cpu:          26
+ me:           10 my cpu:          26
+ me:           12 my cpu:          26
+ me:           15 my cpu:          26
+ me:           13 my cpu:          26
+ me:           14 my cpu:          26
+ me:            0 my cpu:          18
+ me:            1 my cpu:          18
+ me:            0 my cpu:          27
+ me:            0 my cpu:           7
+ me:            1 my cpu:           7
+ me:            3 my cpu:           7
+ me:            2 my cpu:           7
+ me:            2 my cpu:          18
+ me:            3 my cpu:          18
+ me:           12 my cpu:          18
+ me:           15 my cpu:          18
+ me:           14 my cpu:          18
+ me:           13 my cpu:          18
+ me:            8 my cpu:           7
+ me:            9 my cpu:           7
+ me:           10 my cpu:           7
+ me:           11 my cpu:           7
+ me:            4 my cpu:          26
+ me:            7 my cpu:          26
+ me:            6 my cpu:          26
+ me:            5 my cpu:          26
+ me:            1 my cpu:          27
+ me:            4 my cpu:          18
+ me:            5 my cpu:          18
+ me:            6 my cpu:          18
+ me:            7 my cpu:          18
+ me:            3 my cpu:          27
+ me:            2 my cpu:          27
+ me:           12 my cpu:           7
+ me:           15 my cpu:           7
+ me:           13 my cpu:           7
+ me:           14 my cpu:           7
+ me:            8 my cpu:          27
+ me:           11 my cpu:          27
+ me:           10 my cpu:          27
+ me:            4 my cpu:           7
+ me:            7 my cpu:           7
+ me:            5 my cpu:           7
+ me:            6 my cpu:           7
+ me:            9 my cpu:          27
+ me:           12 my cpu:          27
+ me:           13 my cpu:          27
+ me:           15 my cpu:          27
+ me:           14 my cpu:          27
+ me:            4 my cpu:          25
+ me:            5 my cpu:          25
+ me:            7 my cpu:          25
+ me:           16 my cpu:          10
+ me:           19 my cpu:          10
+ me:           18 my cpu:          10
+ me:           17 my cpu:          10
+ me:            6 my cpu:          25
+ me:           20 my cpu:          10
+ me:           21 my cpu:          10
+ me:           23 my cpu:          10
+ me:           22 my cpu:          10
+ me:           16 my cpu:          16
+ me:           17 my cpu:          16
+ me:           18 my cpu:          16
+ me:           19 my cpu:          16
+ me:           20 my cpu:          16
+ me:           22 my cpu:          16
+ me:           23 my cpu:          16
+ me:           21 my cpu:          16
+ me:           24 my cpu:          10
+ me:           27 my cpu:          10
+ me:           26 my cpu:          10
+ me:           25 my cpu:          10
+ me:           28 my cpu:          10
+ me:           31 my cpu:          10
+ me:           30 my cpu:          10
+ me:           29 my cpu:          10
+ me:           24 my cpu:          16
+ me:           27 my cpu:          16
+ me:           26 my cpu:          16
+ me:           25 my cpu:          16
+ me:            4 my cpu:           2
+ me:            6 my cpu:           2
+ me:            7 my cpu:           2
+ me:            5 my cpu:           2
+ me:           16 my cpu:           2
+ me:           18 my cpu:           2
+ me:           17 my cpu:           2
+ me:           19 my cpu:           2
+ me:           20 my cpu:           2
+ me:           21 my cpu:           2
+ me:           23 my cpu:           2
+ me:           22 my cpu:           2
+ me:           24 my cpu:           2
+ me:           27 my cpu:           2
+ me:           26 my cpu:           2
+ me:           25 my cpu:           2
+ me:           28 my cpu:           2
+ me:           29 my cpu:           2
+ me:           30 my cpu:           2
+ me:           31 my cpu:           2
+ me:           16 my cpu:           7
+ me:           19 my cpu:           7
+ me:           18 my cpu:           7
+ me:           17 my cpu:           7
+ me:           24 my cpu:           7
+ me:           25 my cpu:           7
+ me:           26 my cpu:           7
+ me:           27 my cpu:           7
+ me:           28 my cpu:           7
+ me:           31 my cpu:           7
+ me:           30 my cpu:           7
+ me:           29 my cpu:           7
+ me:           20 my cpu:           7
+ me:           22 my cpu:           7
+ me:           23 my cpu:           7
+ me:           21 my cpu:           7
+ me:           28 my cpu:          16
+ me:           31 my cpu:          16
+ me:           29 my cpu:          16
+ me:           30 my cpu:          16
+ me:            0 my cpu:          17
+ me:            1 my cpu:          17
+ me:            3 my cpu:          17
+ me:            2 my cpu:          17
+ me:           12 my cpu:          17
+ me:           15 my cpu:          17
+ me:           14 my cpu:          17
+ me:           13 my cpu:          17
+ me:            4 my cpu:          17
+ me:            5 my cpu:          17
+ me:            6 my cpu:          17
+ me:            7 my cpu:          17
+ me:           16 my cpu:          18
+ me:           17 my cpu:          18
+ me:           19 my cpu:          18
+ me:           18 my cpu:          18
+ me:           24 my cpu:          18
+ me:           25 my cpu:          18
+ me:           27 my cpu:          18
+ me:           26 my cpu:          18
+ me:           28 my cpu:          18
+ me:           31 my cpu:          18
+ me:           30 my cpu:          18
+ me:           29 my cpu:          18
+ me:           20 my cpu:          18
+ me:           22 my cpu:          18
+ me:           21 my cpu:          18
+ me:           23 my cpu:          18
+ me:            8 my cpu:          18
+ me:           11 my cpu:          18
+ me:            9 my cpu:          18
+ me:           10 my cpu:          18
+ me:            0 my cpu:          19
+ me:            1 my cpu:          19
+ me:            3 my cpu:          19
+ me:            2 my cpu:          19
+ me:            4 my cpu:          19
+ me:            7 my cpu:          19
+ me:            6 my cpu:          19
+ me:            5 my cpu:          19
+ me:            8 my cpu:          19
+ me:           11 my cpu:          19
+ me:           10 my cpu:          19
+ me:            9 my cpu:          19
+ me:           12 my cpu:          19
+ me:           14 my cpu:          19
+ me:           15 my cpu:          19
+ me:           13 my cpu:          19
+ me:           16 my cpu:          20
+ me:           17 my cpu:          20
+ me:           19 my cpu:          20
+ me:           18 my cpu:          20
+ me:           24 my cpu:          20
+ me:           27 my cpu:          20
+ me:           25 my cpu:          20
+ me:           26 my cpu:          20
+ me:           20 my cpu:          20
+ me:           21 my cpu:          20
+ me:           22 my cpu:          20
+ me:           23 my cpu:          20
+ me:           28 my cpu:          20
+ me:           31 my cpu:          20
+ me:           29 my cpu:          20
+ me:           30 my cpu:          20
+ me:            4 my cpu:          20
+ me:            6 my cpu:          20
+ me:            5 my cpu:          20
+ me:            7 my cpu:          20
+ me:           16 my cpu:          26
+ me:           19 my cpu:          26
+ me:           18 my cpu:          26
+ me:           17 my cpu:          26
+ me:           20 my cpu:          26
+ me:           21 my cpu:          26
+ me:           23 my cpu:          26
+ me:           22 my cpu:          26
+ me:           28 my cpu:          26
+ me:           29 my cpu:          26
+ me:           31 my cpu:          26
+ me:           30 my cpu:          26
+ me:           24 my cpu:          26
+ me:           27 my cpu:          26
+ me:           26 my cpu:          26
+ me:           25 my cpu:          26
+ me:            4 my cpu:          27
+ me:            6 my cpu:          27
+ me:            7 my cpu:          27
+ me:            5 my cpu:          27
+ me:           16 my cpu:          27
+ me:           19 my cpu:          27
+ me:           18 my cpu:          27
+ me:           17 my cpu:          27
+ me:           24 my cpu:          27
+ me:           27 my cpu:          27
+ me:           25 my cpu:          27
+ me:           26 my cpu:          27
+ me:           28 my cpu:          27
+ me:           29 my cpu:          27
+ me:           31 my cpu:          27
+ me:           30 my cpu:          27
+ me:           20 my cpu:          27
+ me:           23 my cpu:          27
+ me:           22 my cpu:          27
+ me:           21 my cpu:          27
+ me:           16 my cpu:          17
+ me:           17 my cpu:          17
+ me:           19 my cpu:          17
+ me:           18 my cpu:          17
+ me:           24 my cpu:          17
+ me:           26 my cpu:          17
+ me:           25 my cpu:          17
+ me:           27 my cpu:          17
+ me:           20 my cpu:          17
+ me:           23 my cpu:          17
+ me:           21 my cpu:          17
+ me:           22 my cpu:          17
+ me:           28 my cpu:          17
+ me:           31 my cpu:          17
+ me:           29 my cpu:          17
+ me:           30 my cpu:          17
+ me:           16 my cpu:          19
+ me:           19 my cpu:          19
+ me:           17 my cpu:          19
+ me:           18 my cpu:          19
+ me:           28 my cpu:          19
+ me:           31 my cpu:          19
+ me:           30 my cpu:          19
+ me:           29 my cpu:          19
+ me:           20 my cpu:          19
+ me:           22 my cpu:          19
+ me:           23 my cpu:          19
+ me:           21 my cpu:          19
+ me:           24 my cpu:          19
+ me:           25 my cpu:          19
+ me:           27 my cpu:          19
+ me:           26 my cpu:          19
+ me:            8 my cpu:          17
+ me:           11 my cpu:          17
+ me:            9 my cpu:          17
+ me:           10 my cpu:          17
+ Selected Eigensolver :            scalapack
+ --------------------------------------------------------
+ Iteration:           1  Distance:   35.4449796877391     
+ Iteration:           2  Distance:   33.7696157716769     
+ Iteration:           3  Distance:   50.0207416322102     
+ Iteration:           4  Distance:   25.7223670968260     
+ Iteration:           5  Distance:   19.5274042727487     
+ Iteration:           6  Distance:   17.7316229680060     
+ Iteration:           7  Distance:   11.9120004195621     
+ Iteration:           8  Distance:   11.6681259476418     
+ Iteration:           9  Distance:   9.75058622996622     
+ Iteration:          10  Distance:   9.68391301608722     
+ Iteration:          11  Distance:   7.38485103879858     
+ Iteration:          12  Distance:   7.46086578859962     
+ Iteration:          13  Distance:   4.01587534593740     
+ Iteration:          14  Distance:   3.59665658390036     
+ Iteration:          15  Distance:   1.03585890401748     
+ Iteration:          16  Distance:  0.978957143094795     
+ Iteration:          17  Distance:  0.841452634036600     
+ Iteration:          18  Distance:  0.241991145832596     
+ Iteration:          19  Distance:  0.166246885610501     
+ Iteration:          20  Distance:  8.376604919453408E-002
+ Iteration:          21  Distance:  5.909349546610208E-002
+ Iteration:          22  Distance:  4.879360595453375E-002
+ Iteration:          23  Distance:  8.163297817779009E-003
+ Iteration:          24  Distance:  5.751114227355667E-003
+ Iteration:          25  Distance:  3.054861204078369E-003
+ Iteration:          26  Distance:  1.114530728316104E-003
+ Iteration:          27  Distance:  6.879888538817967E-004
+ Iteration:          28  Distance:  4.051637068164261E-004
+ Iteration:          29  Distance:  1.029112598400780E-004
+ Iteration:          30  Distance:  8.908172896236341E-005
+ Iteration:          31  Distance:  6.261017620430605E-005
+ Iteration:          32  Distance:  3.073399229474684E-005
+ Iteration:          33  Distance:  9.181507202172769E-006
+ 
+ ********************************************************************
+ Run finished successfully
+ Stop message:
+   all done
+ ********************************************************************
+ If you publish work with contributions from FLEUR calculations,
+ please cite:
+ 
+   - The FLEUR project: https://www.flapw.de
+ 
+   - D. Wortmann et al., FLEUR, Zenodo, DOI: 10.5281/zenodo.7576163
+ 
+ Please also consult on the website
+   User Guide -> Reference -> References
+ for more information on relevant papers and example Bibtex entries.
+ ********************************************************************
+Rank:0 used   10.948   0.680 GB/	16680836 kB
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 0 PID 1040313 RUNNING AT sola11
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 1 PID 1040314 RUNNING AT sola11
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 2 PID 1040315 RUNNING AT sola11
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 3 PID 1040316 RUNNING AT sola11
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 8 PID 1040321 RUNNING AT sola11
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 9 PID 1040322 RUNNING AT sola11
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 10 PID 1040323 RUNNING AT sola11
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 11 PID 1040324 RUNNING AT sola11
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 12 PID 1040325 RUNNING AT sola11
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 15 PID 1040328 RUNNING AT sola11
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 16 PID 1040329 RUNNING AT sola11
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 17 PID 1040330 RUNNING AT sola11
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 18 PID 1040331 RUNNING AT sola11
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 20 PID 1040333 RUNNING AT sola11
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 21 PID 1040334 RUNNING AT sola11
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 22 PID 1040335 RUNNING AT sola11
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   RANK 28 PID 1040341 RUNNING AT sola11
+=   KILLED BY SIGNAL: 9 (Killed)
+===================================================================================

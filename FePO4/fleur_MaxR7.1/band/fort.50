@@ -1,0 +1,2 @@
+ The OpenMP parallelism seems to be weird
+ Multiple OMPs on one core: There are 32 on cpu 20

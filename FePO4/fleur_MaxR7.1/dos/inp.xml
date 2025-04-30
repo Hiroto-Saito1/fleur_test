@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<fleurInput fleurInputVersion="0.38">
+   <comment>
+      FePO4                                                                                               
+   </comment>
+   <calculationSetup>
+      <cutoffs Kmax="4.50000000" Gmax="13.50000000" GmaxXC="13.50000000" numbands="0"/>
+      <scfLoop itmax="100" minDistance=".00001000" maxIterBroyd="15" imix="Anderson" alpha=".05000000" precondParam="0.0" spinf="2.00000000"/>
+      <coreElectrons ctail="T" frcor="F" kcrel="0" coretail_lmax="0"/>
+      <xcFunctional name="pbe" relativisticCorrections="F"/>
+      <magnetism jspins="2"/>
+      <soc l_soc="T" theta=".00000000" phi=".00000000" spav="F"/>
+      <expertModes spex="0" secvar="F"/>
+      <geometryOptimization l_f="F" forcealpha="1.00000000" forcemix="BFGS" epsdisp=".00001000" epsforce=".00001000"/>
+      <ldaU l_linMix="F" mixParam=".050000" spinf="1.000000"/>
+   </calculationSetup>
+   <cell>
+      <bzIntegration valenceElectrons="180.00000000" mode="hist" fermiSmearingEnergy=".00100000">
+         <kPointListSelection listName="default"/>
+         <!-- k-points included here -->
+         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="kpts.xml"> </xi:include>
+      </bzIntegration>
+      <!-- symmetry operations included here -->
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="sym.xml"> </xi:include>
+      <bulkLattice scale="1.0000000000">
+         <bravaisMatrix>
+            <row-1>   10.9772672999999994     0.0000000000000000     0.0000000000000000</row-1>
+            <row-2>    0.0000000000000000    18.5927582999999998     0.0000000000000000</row-2>
+            <row-3>    0.0000000000000000     0.0000000000000000     9.0252071999999988</row-3>
+         </bravaisMatrix>
+      </bulkLattice>
+   </cell>
+   <atomSpecies>
+      <species name="Fe-1" element="Fe" atomicNumber="26">
+         <mtSphere radius="2.23000000" gridPoints="737" logIncrement=".01600000"/>
+         <atomicCutoffs lmax="8" lnonsphr="6"/>
+         <electronConfig flipSpins="F">
+            <coreConfig>(1s1/2) (2s1/2) (2p1/2) (2p3/2)</coreConfig>
+            <valenceConfig>(3s1/2) (3p1/2) (3p3/2) (4s1/2) (3d3/2) (3d5/2)</valenceConfig>
+            <stateOccupation state="(3d3/2)" spinUp="1.20000000" spinDown="1.20000000"/>
+            <stateOccupation state="(3d5/2)" spinUp="2.90000000" spinDown=".70000000"/>
+         </electronConfig>
+         <energyParameters s="4" p="4" d="3" f="4"/>
+         <lo type="SCLO" l="1" n="2" eDeriv="0"/>
+         <lo type="SCLO" l="0" n="3" eDeriv="0"/>
+         <lo type="SCLO" l="1" n="3" eDeriv="0"/>
+      </species>
+      <species name="Phosphorous (P)" element="P" atomicNumber="15">
+         <mtSphere radius="1.46000000" gridPoints="483" logIncrement=".02300000"/>
+         <atomicCutoffs lmax="6" lnonsphr="4"/>
+         <electronConfig flipSpins="F">
+            <coreConfig>(1s1/2) (2s1/2) (2p1/2) (2p3/2)</coreConfig>
+            <valenceConfig>(3s1/2) (3p1/2) (3p3/2)</valenceConfig>
+            <stateOccupation state="(3p1/2)" spinUp=".50000000" spinDown=".50000000"/>
+            <stateOccupation state="(3p3/2)" spinUp="1.00000000" spinDown="1.00000000"/>
+         </electronConfig>
+         <energyParameters s="3" p="3" d="3" f="4"/>
+      </species>
+      <species name="Oxygen (O)" element="O" atomicNumber="8">
+         <mtSphere radius="1.27000000" gridPoints="421" logIncrement=".02500000"/>
+         <atomicCutoffs lmax="6" lnonsphr="4"/>
+         <electronConfig flipSpins="F">
+            <coreConfig>(1s1/2)</coreConfig>
+            <valenceConfig>(2s1/2) (2p1/2) (2p3/2)</valenceConfig>
+            <stateOccupation state="(2p1/2)" spinUp=".66666667" spinDown=".66666667"/>
+            <stateOccupation state="(2p3/2)" spinUp="1.33333333" spinDown="1.33333333"/>
+         </electronConfig>
+         <energyParameters s="2" p="2" d="3" f="4"/>
+      </species>
+   </atomSpecies>
+   <atomGroups>
+      <atomGroup species="Fe-1">
+         <relPos label="                   1">1.000/4.000 .2744000000 -.0438000000</relPos>
+         <relPos label="                   2">-1.000/4.000 .2256000000 .4562000000</relPos>
+         <relPos label="                   3">-1.000/4.000 -.2744000000 .0438000000</relPos>
+         <relPos label="                   4">1.000/4.000 -.2256000000 -.4562000000</relPos>
+         <force calculate="T" relaxXYZ="TTT"/>
+      </atomGroup>
+      <atomGroup species="Phosphorous (P)">
+         <relPos label="                   5">1.000/4.000 .1022000000 .4033000000</relPos>
+         <relPos label="                   6">-1.000/4.000 .3978000000 -.0967000000</relPos>
+         <relPos label="                   7">-1.000/4.000 -.1022000000 -.4033000000</relPos>
+         <relPos label="                   8">1.000/4.000 -.3978000000 .0967000000</relPos>
+         <force calculate="T" relaxXYZ="TTT"/>
+      </atomGroup>
+      <atomGroup species="Oxygen (O)">
+         <relPos label="                   9">1.000/4.000 .1162000000 -.2877000000</relPos>
+         <relPos label="                  10">-1.000/4.000 .3838000000 .2123000000</relPos>
+         <relPos label="                  11">-1.000/4.000 -.1162000000 .2877000000</relPos>
+         <relPos label="                  12">1.000/4.000 -.3838000000 -.2123000000</relPos>
+         <force calculate="T" relaxXYZ="TTT"/>
+      </atomGroup>
+      <atomGroup species="Oxygen (O)">
+         <relPos label="                  13">1.000/4.000 .4432000000 .1494000000</relPos>
+         <relPos label="                  14">-1.000/4.000 .0568000000 -.3506000000</relPos>
+         <relPos label="                  15">-1.000/4.000 -.4432000000 -.1494000000</relPos>
+         <relPos label="                  16">1.000/4.000 -.0568000000 .3506000000</relPos>
+         <force calculate="T" relaxXYZ="TTT"/>
+      </atomGroup>
+      <atomGroup species="Oxygen (O)">
+         <relPos label="                  17">.0442000000 .1661000000 .2562000000</relPos>
+         <relPos label="                  18">-.0442000000 .3339000000 -.2438000000</relPos>
+         <relPos label="                  21">-.0442000000 -.1661000000 -.2562000000</relPos>
+         <relPos label="                  22">.0442000000 -.3339000000 .2438000000</relPos>
+         <force calculate="T" relaxXYZ="TTT"/>
+      </atomGroup>
+      <atomGroup species="Oxygen (O)">
+         <relPos label="                  19">-.4558000000 -.1661000000 -.2562000000</relPos>
+         <relPos label="                  20">.4558000000 -.3339000000 .2438000000</relPos>
+         <relPos label="                  23">.4558000000 .1661000000 .2562000000</relPos>
+         <relPos label="                  24">-.4558000000 .3339000000 -.2438000000</relPos>
+         <force calculate="T" relaxXYZ="TTT"/>
+      </atomGroup>
+   </atomGroups>
+   <output dos="T" band="F" slice="F">
+      <checks vchk="F" cdinf="F"/>
+      <bandDOS minEnergy="-2.50000000*Htr" maxEnergy="2.50000000*Htr" sigma=".01500000" storeEVData="T"/>
+      <vacuumDOS vacdos="F" integ="F" star="F" nstars="0" locx1=".00000" locy1=".00000" locx2=".00000" locy2=".00000" nstm="0" tworkf=".00000"/>
+      <unfoldingBand unfoldBand="F" supercellX="1" supercellY="1" supercellZ="1"/>
+      <plotting iplot="0" polar="F">
+         <plot TwoD="T" vec1="  1.0  0.0  0.0" vec2="  0.0  1.0  0.0" vec3="  0.0  0.0  1.0" zero="  0.0  0.0  0.0" file="plot"/>
+      </plotting>
+      <chargeDensitySlicing numkpt="0" minEigenval=".00000000" maxEigenval=".00000000" nnne="0" pallst="F"/>
+      <specialOutput eonly="F" bmt="F"/>
+      <magneticCircularDichroism mcd="F" energyLo="-10.00000000" energyUp=".00000000"/>
+   </output>
+  <!-- We include the file relax.xml here to enable relaxations (see documentation) -->
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="relax.xml"> <xi:fallback/> </xi:include>
+</fleurInput>
+
+<!--
+Command line when calling inpgen (only for documentation purposes):
+/home/hirotosaito/codes/fleur_MaxR7.1/build/inpgen -f inp_FePO4
+
+Initial (original) inpgen input (only for documentation purposes):
+FePO4
+&input
+    film = f
+    cartesian = f
+/
+    5.809  0.000  0.000
+    0.000  9.839  0.000
+    0.000  0.000  4.776
+    1.8897               !lattice const scaled as(1.0*bohr)
+    1.0  1.0  1.0        ! scale
+ 24
+ 26  0.2500    0.2744    0.9562
+ 26  0.7500    0.2256    1.4562
+ 26  0.7500   -0.2744   -0.9562
+ 26  0.2500    0.7744   -0.4562
+ 15  0.2500    0.1022    0.4033
+ 15  0.7500    0.3978    0.9033
+ 15  0.7500   -0.1022   -0.4033
+ 15  0.2500    0.6022    0.0967
+ 8   0.2500    0.1162    0.7123
+ 8   0.7500    0.3838    1.2123
+ 8   0.7500   -0.1162   -0.7123
+ 8   0.2500    0.6162   -0.2123
+ 8   0.2500    0.4432    0.1494
+ 8   0.7500    0.0568    0.6494
+ 8   0.7500   -0.4432   -0.1494
+ 8   0.2500    0.9432    0.3506
+ 8   0.0442    0.1661    0.2562
+ 8  -0.0442    0.3339    0.7562
+ 8   0.5442   -0.1661   -0.2562
+ 8   0.4558    0.6661    0.2438
+ 8  -0.0442   -0.1661   -0.2562
+ 8   0.0442    0.6661    0.2438
+ 8   0.4558    0.1661    0.2562
+ 8   0.5442    0.3339    0.7562
+&soc
+    0.0 0.0
+/
+&atom element="Fe" econfig="1s2 2s2 2p6|3s2 3p6 4s2 3d6" lo="2p 3s 3p" /
+-->

@@ -1,0 +1,13 @@
+bcc Fe
+
+&input film=f /
+
+&lattice latsys='cI' a0=1.8897269 a=2.83351 /
+
+1
+26     0.0 0.0 0.0
+
+&soc 0.0 0.0 / 
+&atom element="Fe" jri=981 lmax=12 lnonsph=6 lo="3s 3p" /
+&comp kmax=5.2 gmaxxc=12.5 gmax=15.0 /
+&kpt div1=16 div2=16 div3=16 /

@@ -1,0 +1,30 @@
+{
+   "url":"www.flapw.de/collect.pl",
+   "calculation-id":"BE0F8F60EE8FB09D",
+   "data": {
+        "githash":"0086d0acfb761f925619a809d0d08d004254e175",
+        "MPI-PE":16,
+        "OMP":16,
+        "A-Types":6,
+        "fi%atoms":24,
+        "Real":true,
+        "Spins":2,
+        "Noco":false,
+        "SOC":true,
+        "SpinSpiral":false,
+        "PlaneWaves":2858,
+        "LOs":28,
+        "nkpt":90,
+        "gpu_per_node":0,
+        "Runtime":355.65,
+        "cpu_model":"1",
+        "cpu_modelname":"AMD EPYC 7413 24-Core Processor",
+        "VmPeak":10694620,
+        "VmSize":10150308,
+        "VmHWM":919752,
+        "VmData":478988,
+        "VmStk":8452,
+        "VmExe":35236,
+        "VmSwap":0
+      }
+}

@@ -1,0 +1,31 @@
+
+                   FLAPW7 time.info-file
+
+preparation: generation of stars,lattice harmonics,etc:         0.00 sec =   0 h  0 min  0.00 sec
+
+ITERATION  1
+
+psqpw:                                                          0.00 sec =   0 h  0 min  0.00 sec
+p int                                                           0.00 sec =   0 h  0 min  0.00 sec
+p mts                                                           0.00 sec =   0 h  0 min  0.00 sec
+generation of ex.-cor.potential in interstitial:                0.01 sec =   0 h  0 min  0.01 sec
+generation of ex.-cor.potential in mt:                          0.28 sec =   0 h  0 min  0.28 sec
+generation of potential (total):                                0.30 sec =   0 h  0 min  0.30 sec
+EIGENVALUE PART (eigen):
+   tlmplm:                                                      0.02 sec =   0 h  0 min  0.02 sec
+   generation of planewaves (apws):                             0.00 sec =   0 h  0 min  0.00 sec
+   hsint:                                                       0.00 sec =   0 h  0 min  0.00 sec
+   hssph(n):
+      spherical:                                                0.02 sec =   0 h  0 min  0.02 sec
+      non-spherical:                                            0.09 sec =   0 h  0 min  0.09 sec
+      hssphn (total):                                           0.11 sec =   0 h  0 min  0.11 sec
+   seclr4:                                                      0.30 sec =   0 h  0 min  0.30 sec
+   outeig:                                                      0.03 sec =   0 h  0 min  0.03 sec
+SOC:   spnorb :                                                 0.00 sec =   0 h  0 min  0.00 sec
+SOC:     -help:                                                 0.04 sec =   0 h  0 min  0.04 sec
+SOC:     -ham :                                                 0.03 sec =   0 h  0 min  0.03 sec
+SOC:     -diag:                                                 0.01 sec =   0 h  0 min  0.01 sec
+SOC:   alineso:                                                 0.10 sec =   0 h  0 min  0.10 sec
+generation of hamiltonian and diagonalization (total):          1.09 sec =   0 h  0 min  1.09 sec
+determination of fermi energy:                                  0.03 sec =   0 h  0 min  0.03 sec
+CHARGE DENSITY PART (cdngen):
